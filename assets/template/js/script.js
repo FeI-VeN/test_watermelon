@@ -9,7 +9,7 @@ $(document).ready(function(){
 
         btn.addClass('disabled').html('Выполняю...');
         $.ajax({
-            url: 'https://fei-ven.github.io/test_watermelon/core/snippets/ajax.php',
+            url: './core/snippets/ajax.php',
             type: 'POST',
             data: params,
             cache: false,
