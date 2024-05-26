@@ -1,9 +1,7 @@
 <?php
-if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest') {
+/*if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest') {
     return;
-}
-
-// Сниппет будет обрабатывать не один вид запросов, поэтому работать будем по запрашиваемому действию
+}*/
 // Если в массиве POST нет действия - выход
 if (empty($_POST['action'])) {
     return;
